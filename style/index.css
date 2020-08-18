@@ -262,41 +262,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
+    justify-content: space-between;
 
-.StrategyandWork {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    padding: 5%;
-    border-top: 1px dashed black;
 }
-.StrategyandWork .text-container {
-    width: 48%;
-    padding: 5%;
-    padding-bottom: 20px;
-}
-.PlacesandCollaboration {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    padding: 5%;
-    
-}
-.PlacesandCollaboration .text-container {
-    width: 48%;
-    padding: 5%;
-    padding-bottom: 20px;
-    border-top: 1px dashed black;  
-}
-.learn-more{
-    position: bottom;
-    display: flex;
-    border-radius: 12px;
-    height: 10%;
-    padding: 3%;
 
 }
 .image {
