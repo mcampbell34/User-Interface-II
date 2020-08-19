@@ -302,3 +302,50 @@ footer nav a {
       input[type=submit]:hover {
         background-color: darkblue;
       }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      @media(max-width: 500px){
+        .container { 
+            flex-direction: column; 
+            margin: 0 auto; 
+        }
+        .top-content {
+          flex-direction: column; 
+          margin: 0 auto; 
+        }
+        .topnav{
+          flex-direction: column; 
+          margin: 0 auto;
+        }
+        .boxes{
+          flex-direction: column; 
+          margin: 0 auto;
+        }
+        footer{
+          flex-direction: column; 
+          margin: 0 auto;
+        }
+        .navigationflex{
+          flex-direction: column; 
+          margin: 0 auto;
+        }
+        div{
+          flex-direction: column; 
+          margin: 0 auto;
+        }
+        .text-container{
+          flex-direction: column; 
+          margin: 0 auto;
+        }
+
+    }      
